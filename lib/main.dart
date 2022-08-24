@@ -37,6 +37,7 @@ class MyApp extends StatelessWidget {
         ),
         floatingActionButtonLocation: FloatingActionButtonLocation.centerFloat,
       ),
+      debugShowCheckedModeBanner: false,
     );
   }
 }
