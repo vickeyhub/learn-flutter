@@ -13,6 +13,8 @@ class MyApp extends StatelessWidget {
       home: Scaffold(
         appBar: AppBar(
           title: Text("My First App"),
+          centerTitle: true,
+          backgroundColor: Colors.deepOrange,
         ),
       ),
     );
