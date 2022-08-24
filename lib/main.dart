@@ -16,6 +16,16 @@ class MyApp extends StatelessWidget {
           centerTitle: true,
           backgroundColor: Colors.deepOrange,
         ),
+        body: Center(
+          child: Text("Virtual mind education"),
+        ),
+        floatingActionButton: FloatingActionButton(
+          onPressed: () {
+            print("Clicked");
+          },
+          child: Text("+"),
+          backgroundColor: Colors.orange,
+        ),
       ),
     );
   }
