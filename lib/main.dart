@@ -11,32 +11,35 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       home: Scaffold(
-        appBar: AppBar(
-          title: Text("My First App"),
-          centerTitle: true,
-          backgroundColor: Colors.deepOrange,
-        ),
-        body: Center(
-          child: const Text(
-            "Virtual Mind Education",
-            style: TextStyle(
-                fontSize: 25,
-                color: Colors.deepOrange,
-                fontWeight: FontWeight.bold),
+          appBar: AppBar(
+            title: Text("My First App"),
+            centerTitle: true,
+            backgroundColor: Colors.deepOrange,
           ),
-        ),
-        floatingActionButton: FloatingActionButton(
-          onPressed: () {
-            print("Clicked");
-          },
-          child: Icon(
-            Icons.add,
-            size: 40,
+          body: Center(
+            child: const Text(
+              "Virtual Mind Education",
+              style: TextStyle(
+                  fontSize: 25,
+                  color: Colors.deepOrange,
+                  fontWeight: FontWeight.bold),
+            ),
           ),
-          backgroundColor: Colors.orange,
-        ),
-        floatingActionButtonLocation: FloatingActionButtonLocation.centerFloat,
-      ),
+          floatingActionButton: FloatingActionButton(
+            onPressed: () {
+              print("Clicked");
+            },
+            child: Icon(
+              Icons.add,
+              size: 40,
+            ),
+            backgroundColor: Colors.orange,
+          ),
+          floatingActionButtonLocation:
+              FloatingActionButtonLocation.centerFloat,
+
+          //add a sidebar drawer just for test
+          drawer: Drawer()),
       debugShowCheckedModeBanner: false,
     );
   }
