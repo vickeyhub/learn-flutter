@@ -29,9 +29,13 @@ class MyApp extends StatelessWidget {
           onPressed: () {
             print("Clicked");
           },
-          child: Icon(Icons.add),
+          child: Icon(
+            Icons.add,
+            size: 40,
+          ),
           backgroundColor: Colors.orange,
         ),
+        floatingActionButtonLocation: FloatingActionButtonLocation.centerFloat,
       ),
     );
   }
