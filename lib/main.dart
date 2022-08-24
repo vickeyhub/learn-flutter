@@ -23,7 +23,7 @@ class MyApp extends StatelessWidget {
           onPressed: () {
             print("Clicked");
           },
-          child: Text("+"),
+          child: Icon(Icons.add),
           backgroundColor: Colors.orange,
         ),
       ),
