@@ -17,7 +17,13 @@ class MyApp extends StatelessWidget {
           backgroundColor: Colors.deepOrange,
         ),
         body: Center(
-          child: Text("Virtual mind education"),
+          child: const Text(
+            "Virtual Mind Education",
+            style: TextStyle(
+                fontSize: 25,
+                color: Colors.deepOrange,
+                fontWeight: FontWeight.bold),
+          ),
         ),
         floatingActionButton: FloatingActionButton(
           onPressed: () {
